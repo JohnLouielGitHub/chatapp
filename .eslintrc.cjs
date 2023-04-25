@@ -4,7 +4,6 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        'eslint:recommended',
         'plugin:react/recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
@@ -21,4 +20,4 @@ module.exports = {
         'tailwindcss/no-contradicting-classname': 'error',
         'react/react-in-jsx-scope': 0,
     },
-}
+};
